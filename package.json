@@ -1,0 +1,16 @@
+{
+  "name": "Tetris",
+  "version": "1.0.0",
+  "description": "Tetris",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "webpack-dev-server --content-base static/ --disableHostCheck --host 0.0.0.0 --open"
+  },
+  "author": "Jakub Kowalczyk",
+  "devDependencies": {
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
