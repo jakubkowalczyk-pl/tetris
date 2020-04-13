@@ -4,7 +4,7 @@
   "description": "Tetris",
   "main": "src/index.ts",
   "scripts": {
-    "start": "webpack-dev-server --content-base static/ --disableHostCheck --host 0.0.0.0 --open"
+    "start": "webpack-dev-server --content-base . --disableHostCheck --host 0.0.0.0 --open"
   },
   "author": "Jakub Kowalczyk",
   "devDependencies": {
