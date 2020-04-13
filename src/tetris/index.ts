@@ -197,7 +197,7 @@ export default class GameController {
         if (this.insertBlock(fallingBlock)) {
             this.fallingBlock = fallingBlock;
 
-            this.interval = setInterval(async () => {
+            this.interval = +setInterval(async () => {
                 if (!this.moveDownFallingBlock()) {
                     clearInterval(this.interval);
                     await this.removeFilledRows();

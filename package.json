@@ -8,9 +8,10 @@
   },
   "author": "Jakub Kowalczyk",
   "devDependencies": {
-    "ts-loader": "^3.2.0",
+    "ts-loader": "^6.2.2",
     "typescript": "^2.6.2",
-    "webpack": "^3.3.0",
-    "webpack-dev-server": "^2.5.1"
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }
